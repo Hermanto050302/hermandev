@@ -260,6 +260,9 @@ $edu = mysqli_query($mysqli, "SELECT * FROM tb_education ORDER BY id DESC");
 							}
 							?>
 					</span>
+					<p class="text-white mt-4">
+              <?=$data['education']?>
+            </p>
 					<br>
 				</div>
 				<hr class="bg-white my-4">
