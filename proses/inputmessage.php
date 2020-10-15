@@ -5,13 +5,13 @@ if($_SESSION['status']!="login"){
 }
 
 if(isset($_POST['submit'])) {
-	$title = $_POST['name'];
-	$persen = $_POST['email'];
-	$color = $_POST['content'];
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$content = $_POST['content'];
 
 
 	include '../config.php';
-	$result = mysqli_query($mysqli, "INSERT INTO tb_message(name,email,content) VALUES('$name','$email','$content')");
+	$result = mysqli_query($mysqli, "INSERT INTO tb_meessage(name,email,content) VALUES('$name','$email','$content')");
 		// var_dump($result);
 	echo "<script>
 	alert('Pesan Behasil Dikirim');

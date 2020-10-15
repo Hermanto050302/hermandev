@@ -8,7 +8,7 @@ if($_SESSION['status']!="login"){
 include 'include/header.php';
 include '../config.php';
 
-$message = mysqli_query($mysqli, "SELECT * FROM tb_message ORDER BY id DESC");
+$message = mysqli_query($mysqli, "SELECT * FROM tb_meessage ORDER BY id DESC");
 ?>
 <div class="container">
 	<div class="row mt-5">
@@ -89,7 +89,7 @@ $message = mysqli_query($mysqli, "SELECT * FROM tb_message ORDER BY id DESC");
 							<?php  
 							while($data = mysqli_fetch_array($message)) { ?>
 								<tr>
-									<td><?=$data['title']?></td>
+									<td><?=$data['name']?></td>
 									<td><?=$data['email']?></td>
 									<td><?=$data['content']?></td>
 								</tr>
