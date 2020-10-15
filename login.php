@@ -98,7 +98,7 @@ include 'include/header.php';
 <?php  
 if ($_GET['pesan']=='belum_login') {
    echo "<script>
-        alert('Data Anda Salah');
+        alert('Anda belum login atau data anda salah');
         </script>";
 } 
 if ($_GET['pesan']=='logout') {
