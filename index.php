@@ -280,7 +280,7 @@ $edu = mysqli_query($mysqli, "SELECT * FROM tb_education ORDER BY id DESC");
 				<div class="garis bg-warning rounded mt-1"></div>
 			</div>
 			<div class="col-12 col-md-9 mt-4 mt-md-0">
-				<form action="">
+				<form action="proses/inputmessage.php" method="post">
 					<div class="form-group">
 						<label for="exampleFormControlInput1">Name</label>
 						<input type="text" class="form-control" name="name" required="">
@@ -291,7 +291,7 @@ $edu = mysqli_query($mysqli, "SELECT * FROM tb_education ORDER BY id DESC");
 					</div>
 					<div class="form-group">
 						<label for="exampleFormControlTextarea1">Message</label>
-						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+						<textarea name="content" class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
 					</div>
 					<button type="submit" class="btn btn-warning text-white mb-2 float-right">Send Message</button>
 				</form>
