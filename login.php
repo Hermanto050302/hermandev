@@ -85,7 +85,7 @@ include 'include/header.php';
         <div class="text-center intro"> <img src="https://i.imgur.com/uNiv4bD.png" width="160"> <h1 class="d-block account">Welcome Admin</h1> </div>
         <div class="mt-4 text-center">
             <h4>Log In.</h4> <span>Login with your admin credentials</span>
-            <div class="mt-3 inputbox"> <input type="text" class="form-control" name="username" placeholder="Email"> <i class="fa fa-user"></i> </div>
+            <div class="mt-3 inputbox"> <input type="text" class="form-control" name="username" placeholder="Username"> <i class="fa fa-user"></i> </div>
             <div class="inputbox"> <input type="password" class="form-control" name="password" placeholder="Password"> <i class="fa fa-lock"></i> </div>
         </div>
         <div class="mt-2">
