@@ -293,7 +293,7 @@ $edu = mysqli_query($mysqli, "SELECT * FROM tb_education ORDER BY id DESC");
 						<label for="exampleFormControlTextarea1">Message</label>
 						<textarea name="content" class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
 					</div>
-					<button type="submit" class="btn btn-warning text-white mb-2 float-right">Send Message</button>
+					<button type="submit" name="submit" class="btn btn-warning text-white mb-2 float-right">Send Message</button>
 				</form>
 			</div>
 		</div>	
