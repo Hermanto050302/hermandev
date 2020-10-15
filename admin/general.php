@@ -89,7 +89,7 @@ $general = mysqli_fetch_array($result);
 			<div class="card">
 				<h5 class="card-header">Preview</h5>
 				<div class="card-body">
-					<iframe src="http://localhost/porto/index.php#slider" frameborder="0" width="100%" height="500px"></iframe>
+					<iframe src="http://hermandev.42web.io/index.php#slider" frameborder="0" width="100%" height="500px"></iframe>
 				</div>
 			</div>
 		</div>

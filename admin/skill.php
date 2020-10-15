@@ -60,7 +60,7 @@ $modal = mysqli_query($mysqli, "SELECT * FROM tb_skill ORDER BY id DESC");
 			<div class="card">
 				<h5 class="card-header">Preview</h5>
 				<div class="card-body">
-					<iframe  src="http://localhost/porto/index.php#about" frameborder="0" width="100%" height="500px"></iframe>
+					<iframe  src="http://hermandev.42web.io/index.php#about" frameborder="0" width="100%" height="500px"></iframe>
 				</div>
 			</div>
 		</div>
