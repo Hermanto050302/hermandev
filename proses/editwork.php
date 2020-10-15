@@ -1,4 +1,8 @@
 <?php  
+session_start();
+if($_SESSION['status']!="login"){
+  header("location:../login.php?pesan=belum_login");
+}
 
 if(isset($_POST['submit'])) {
 	$id=$_POST['id'];
